@@ -1,0 +1,7 @@
+= Samora Lang Documentation
+
+include::introduction.adoc[]
+
+
+
+include::footer.adoc[]
