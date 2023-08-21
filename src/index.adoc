@@ -1,0 +1,38 @@
+= Samora Lang Documentation
+v1.0.0 - August 2023
+
+include::introduction.adoc[]
+
+== Getting started
+
+Samora Lang is a simple and expressive programming language designed just for fun, mostly for educational purposes.
+ 
+
+
+== Variables 
+
+Samora Lang variables are declared via the keyword `let`. Example:
+
+[,go]
+---- 
+let name = "Samora"
+----
+
+=== Data types
+
+Samora Lang supports primitive types like any other programming language. The following data types are supported:
+
+* Number
+* String
+* Boolean
+
+Variables in Samora Lang are not typed.
+
+[,go]
+----
+let age = 8
+let name = "Samora"
+let isFast = false
+----
+
+include::footer.adoc[]
