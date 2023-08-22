@@ -14,15 +14,25 @@ Samora Lang is simple a interpreted programing language just for educational pur
 === Windows
 You can install Samora Lang on your Windows system by running the https://github.com/obadiaspelembe/samora-lang-installers[Windows Installer] powershell script. Download the script and simply run the following command to install:
 
-```powershell
-./installer.ps1
-```
+[source,cmd]
+----
+C:\Downloads> .\installer.ps1
+----
+
 After the installation completes you can test by simply running the following command:
 
-```powershell
-samora hello.sml
-```
+[source,cmd]
+----
+C:\Workspace> samora hello.sml
+----
 
+=== Arch Linux
+You can install Samora Lang interpreter by using the Arch user repository with the following command
+
+[source,sh]
+----
+$ yay -S samora-lang 
+----
 
 == Variables 
 
