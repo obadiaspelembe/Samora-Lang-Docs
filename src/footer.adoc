@@ -1,2 +1,2 @@
-=== Contributions
+== Contributions
 PR are welcome to the Open-Source project hosted under github project https://github.com/GraHms/Samora-Lang[Samoral-Lang].
