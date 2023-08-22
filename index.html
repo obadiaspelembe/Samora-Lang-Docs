@@ -548,7 +548,7 @@ Hello, World!</code></pre>
 </div>
 </div>
 <div class="paragraph">
-<p>Variables in Samora Lang support the following data types:</p>
+<p>Variables in Samora Lang support the following primary data types:</p>
 </div>
 <div class="ulist">
 <ul>
@@ -579,15 +579,81 @@ Variables in Samora Lang are not strongly typed.
 </table>
 </div>
 <div class="sect3">
-<h4 id="_integers_and_floats">Integers and Floats</h4>
+<h4 id="_numeric_types">Numeric Types</h4>
 <div class="paragraph">
-<p>For numbers, Samora Lang provides two different data types <code>Integers</code> and <code>Floats</code>.</p>
+<p>For numeric types Samora Lang provides two different data types <code>Integers</code> and <code>Floats</code>.</p>
 </div>
 <div class="listingblock">
 <div class="content">
 <pre class="highlight"><code class="language-go" data-lang="go">let age = 8
-let name = "Samora"
-let isFast = false</code></pre>
+let heightInMeters = 1.8</code></pre>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_arithmetic_operators">Arithmetic Operators</h5>
+<div class="paragraph">
+<p>The following arithmetic operators are available for numeric types:</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Operator</th>
+<th class="tableblock halign-left valign-top">Name</th>
+<th class="tableblock halign-left valign-top">Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>+</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Addition</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">x + y</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>-</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Subtraction</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">x - y</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>*</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Multiplication</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">x * y</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>/</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Division</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">x / y</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>%</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Modulus</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">x % y</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>**</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Exponentiation</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">x ** y</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>//</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Floor division</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">x // y</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>Examples:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-go" data-lang="go">let m1 = 8
+let m2 = 7
+let sum = m1 + m2</code></pre>
+</div>
 </div>
 </div>
 </div>
@@ -605,7 +671,7 @@ let isFast = false</code></pre>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2023-08-22 22:00:18 +0200
+Last updated 2023-08-22 22:13:51 +0200
 </div>
 </div>
 </body>

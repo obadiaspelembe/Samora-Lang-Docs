@@ -64,7 +64,7 @@ Samora Lang variables are declared via the keyword `let` + `variable name`. Exam
 ---- 
 let name = "Samora"
 ----
-Variables in Samora Lang support the following data types:
+Variables in Samora Lang support the following primary data types:
 
 * `Integers`
 * `Floats`
@@ -73,15 +73,35 @@ Variables in Samora Lang support the following data types:
 
 NOTE: Variables in Samora Lang are not strongly typed.
 
-==== Integers and Floats
-For numbers, Samora Lang provides two different data types `Integers` and `Floats`.
-
+==== Numeric Types
+For numeric types Samora Lang provides two different data types `Integers` and `Floats`.
 
 [,go]
 ----
 let age = 8
-let name = "Samora"
-let isFast = false
+let heightInMeters = 1.8
+----
+
+===== Arithmetic Operators
+The following arithmetic operators are available for numeric types:
+|===
+|Operator |Name |Example  
+
+|`+`	|Addition	    |x + y	
+|`-`	|Subtraction	|x - y	
+|`*`	|Multiplication	|x * y	
+|`/`	|Division	    |x / y	
+|`%`	|Modulus	    |x % y	
+|`**` |Exponentiation	|x ** y	
+|`//` |Floor division	|x // y
+|===
+
+Examples:
+[,go]
+----
+let m1 = 8
+let m2 = 7
+let sum = m1 + m2
 ----
 
 include::footer.adoc[]
