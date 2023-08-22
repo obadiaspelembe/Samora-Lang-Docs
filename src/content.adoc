@@ -1,0 +1,6 @@
+
+:toc: left
+:toc-placement: macro
+:icons: font
+
+toc::[]

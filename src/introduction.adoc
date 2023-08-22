@@ -1,3 +1,0 @@
-== About Samora Lang
-
-Samora Lang is simple a interpreted programing language just for educational purposes. Samora Lang was originally created by https://github.com/GraHms/[Ismael GraHms] as a fun programming language for educational purposes.

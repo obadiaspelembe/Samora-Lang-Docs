@@ -1,12 +1,27 @@
 = Samora Lang Documentation
 v1.0.0 - August 2023
 
-include::introduction.adoc[]
+include::content.adoc[]
+
+[floating-title]
 
 == Getting started
 
-Samora Lang is a simple and expressive programming language designed just for fun, mostly for educational purposes.
- 
+Samora Lang is simple a interpreted programing language just for educational purposes. Samora Lang was originally created by https://github.com/GraHms/[Ismael GraHms] as a fun programming language for educational purposes.
+
+== Installation
+
+=== Windows
+You can install Samora Lang on your Windows system by running the https://github.com/obadiaspelembe/samora-lang-installers[Windows Installer] powershell script. Download the script and simply run the following command to install:
+
+```powershell
+./installer.ps1
+```
+After the installation completes you can test by simply running the following command:
+
+```powershell
+samora hello.sml
+```
 
 
 == Variables 
@@ -22,7 +37,8 @@ let name = "Samora"
 
 Samora Lang supports primitive types like any other programming language. The following data types are supported:
 
-* Number
+* Integers
+* Floats
 * String
 * Boolean
 
@@ -36,3 +52,4 @@ let isFast = false
 ----
 
 include::footer.adoc[]
+[]
