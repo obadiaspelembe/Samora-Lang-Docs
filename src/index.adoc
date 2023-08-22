@@ -34,25 +34,48 @@ You can install Samora Lang interpreter by using the Arch user repository with t
 $ yay -S samora-lang 
 ----
 
-== Variables 
+== Samora Lang Paradigm
 
-Samora Lang variables are declared via the keyword `let`. Example:
+Samora Lang is a general purpose programming language based on procedural programming.
+
+=== Syntax 
+Samora Lang was originally built to be simplier to `Write` and `Read`. Lets have a quick example of a hello world program.
 
 [,go]
+----
+print("Hello, World!");
+----
+
+Reading this example you easily understand that this program prints a message `Hellom, World!` in your console.
+
+Samora Lang programs are written in a `.sml` extension files so that interpreter can run the program. Create `hello.sml` file to write our program. After creating the file we can execute by calling the `samora` interpreter.
+
+[source,sh]
+----
+$ samora hello.sml
+Hello, World!
+----
+
+=== Variables 
+
+Samora Lang variables are declared via the keyword `let` + `variable name`. Example:
+
+[source,javascript]
 ---- 
 let name = "Samora"
 ----
+Variables in Samora Lang support the following data types:
 
-=== Data types
+* `Integers`
+* `Floats`
+* `String`
+* `Boolean`
 
-Samora Lang supports primitive types like any other programming language. The following data types are supported:
+NOTE: Variables in Samora Lang are not strongly typed.
 
-* Integers
-* Floats
-* String
-* Boolean
+==== Integers and Floats
+For numbers, Samora Lang provides two different data types `Integers` and `Floats`.
 
-Variables in Samora Lang are not typed.
 
 [,go]
 ----
