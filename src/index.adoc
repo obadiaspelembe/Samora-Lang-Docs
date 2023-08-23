@@ -108,5 +108,55 @@ let m2 = 7;
 let sum = m1 + m2;
 ----
 
+==== Booleans
+
+Boolean is primitive data type that represents binary state which can be `true` and `false`;
+
+[,go]
+----
+let isTrue = true;
+let isFalse = false;
+----
+
+
+===== Logical Operators
+Logical operators are used to combine or check conditional statements which can be `true` and `false:
+
+|===
+|Operator  |Description	  |Example
+
+|`&&` 	    |`AND`           |true && true
+|`\|\|`	    |`OR`            |false \|\| true
+|`!` 	    |`NOT`           |!false
+|===
+
+[,go]
+----
+let isFalse = false;
+let isNotFalse = !isFalse;
+----
+
+=== Strings
+Strings in Samora Lang are defined by double quotation marks `""`.
+
+[,go]
+----
+let langName = "Samora Lang";
+----
+
+===== Operations and functions
+
+|===
+|Operator  |Description	  |Example
+
+|`+` 	    |`Concatenate`           | "Samora " + "Lang"
+|`len` 	    |`Length`                | len("Lang")
+
+|===
+
+
+=== Lists
+
 include::footer.adoc[]
 []
+
