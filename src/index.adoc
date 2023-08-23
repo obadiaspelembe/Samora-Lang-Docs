@@ -1,6 +1,8 @@
 = Samora Lang Documentation
 v1.0.0 - August 2023
 
+:icons: font
+
 include::content.adoc[]
 
 [floating-title]
@@ -50,6 +52,8 @@ Reading this example you easily understand that this program prints a message `H
 
 Samora Lang programs are written in a `.sml` extension files so that interpreter can run the program. Create `hello.sml` file to write our program. After creating the file we can execute by calling the `samora` interpreter.
 
+IMPORTANT: All statements in Samora Lang must end with a semicolon `;`.
+
 [source,sh]
 ----
 $ samora hello.sml
@@ -78,8 +82,8 @@ For numeric types Samora Lang provides two different data types `Integers` and `
 
 [,go]
 ----
-let age = 8
-let heightInMeters = 1.8
+let age = 8;
+let heightInMeters = 1.8;
 ----
 
 ===== Arithmetic Operators
@@ -92,16 +96,16 @@ The following arithmetic operators are available for numeric types:
 |`*`	|Multiplication	|x * y	
 |`/`	|Division	    |x / y	
 |`%`	|Modulus	    |x % y	
-|`**` |Exponentiation	|x ** y	
-|`//` |Floor division	|x // y
+|`**`   |Exponentiation	|x ** y	
+|`//`   |Floor division	|x // y
 |===
 
 Examples:
 [,go]
 ----
-let m1 = 8
-let m2 = 7
-let sum = m1 + m2
+let m1 = 8;
+let m2 = 7;
+let sum = m1 + m2;
 ----
 
 include::footer.adoc[]
