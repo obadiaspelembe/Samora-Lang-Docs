@@ -74,9 +74,10 @@ let heightInMeters = 1.8
 
 ##### Arithmetic Operators
 The following arithmetic operators are available for numeric types:
-|===
-|Operator |Name |Example  
 
+
+|Operator |Name |Example  
+|----------|----------|----------|
 |`+`	|Addition	    |x + y	
 |`-`	|Subtraction	|x - y	
 |`*`	|Multiplication	|x * y	
@@ -84,7 +85,6 @@ The following arithmetic operators are available for numeric types:
 |`%`	|Modulus	    |x % y	
 |`**` |Exponentiation	|x ** y	
 |`//` |Floor division	|x // y
-|===
 
 Examples:
 
