@@ -136,7 +136,7 @@ let isFalse = false;
 let isNotFalse = !isFalse;
 ----
 
-=== Strings
+==== Strings
 Strings in Samora Lang are defined by double quotation marks `""`.
 
 [,go]
@@ -151,7 +151,6 @@ let langName = "Samora Lang";
 
 |`+` 	    |`Concatenate`           | "Samora " + "Lang"
 |`len` 	    |`Length`                | len("Lang")
-
 |===
 
 

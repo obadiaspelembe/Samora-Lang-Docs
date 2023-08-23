@@ -458,6 +458,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <ul class="sectlevel2">
 <li><a href="#_syntax">Syntax</a></li>
 <li><a href="#_variables">Variables</a></li>
+<li><a href="#_lists">Lists</a></li>
 </ul>
 </li>
 <li><a href="#_contributions">Contributions</a></li>
@@ -669,6 +670,105 @@ let sum = m1 + m2;</code></pre>
 </div>
 </div>
 </div>
+<div class="sect3">
+<h4 id="_booleans">Booleans</h4>
+<div class="paragraph">
+<p>Boolean is primitive data type that represents binary state which can be <code>true</code> and <code>false</code>;</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-go" data-lang="go">let isTrue = true;
+let isFalse = false;</code></pre>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_logical_operators">Logical Operators</h5>
+<div class="paragraph">
+<p>Logical operators are used to combine or check conditional statements which can be <code>true</code> and `false:</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Operator</th>
+<th class="tableblock halign-left valign-top">Description</th>
+<th class="tableblock halign-left valign-top">Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>&amp;&amp;</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>AND</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">true &amp;&amp; true</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>||</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>OR</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">false || true</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>!</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>NOT</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">!false</p></td>
+</tr>
+</tbody>
+</table>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-go" data-lang="go">let isFalse = false;
+let isNotFalse = !isFalse;</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_strings">Strings</h4>
+<div class="paragraph">
+<p>Strings in Samora Lang are defined by double quotation marks <code>""</code>.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-go" data-lang="go">let langName = "Samora Lang";</code></pre>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_operations_and_functions">Operations and functions</h5>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Operator</th>
+<th class="tableblock halign-left valign-top">Description</th>
+<th class="tableblock halign-left valign-top">Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>+</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Concatenate</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">"Samora " + "Lang"</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>len</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Length</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">len("Lang")</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_lists">Lists</h3>
+
 </div>
 </div>
 </div>
@@ -683,7 +783,7 @@ let sum = m1 + m2;</code></pre>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2023-08-23 19:59:16 +0200
+Last updated 2023-08-23 20:52:33 +0200
 </div>
 </div>
 </body>
