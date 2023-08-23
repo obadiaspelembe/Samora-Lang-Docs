@@ -530,6 +530,18 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="paragraph">
 <p>Samora Lang programs are written in a <code>.sml</code> extension files so that interpreter can run the program. Create <code>hello.sml</code> file to write our program. After creating the file we can execute by calling the <code>samora</code> interpreter.</p>
 </div>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+All statements in Samora Lang must end with a semicolon <code>;</code>.
+</td>
+</tr>
+</table>
+</div>
 <div class="listingblock">
 <div class="content">
 <pre class="highlight"><code class="language-sh" data-lang="sh">$ samora hello.sml
@@ -585,8 +597,8 @@ Variables in Samora Lang are not strongly typed.
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-go" data-lang="go">let age = 8
-let heightInMeters = 1.8</code></pre>
+<pre class="highlight"><code class="language-go" data-lang="go">let age = 8;
+let heightInMeters = 1.8;</code></pre>
 </div>
 </div>
 <div class="sect4">
@@ -650,9 +662,9 @@ let heightInMeters = 1.8</code></pre>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-go" data-lang="go">let m1 = 8
-let m2 = 7
-let sum = m1 + m2</code></pre>
+<pre class="highlight"><code class="language-go" data-lang="go">let m1 = 8;
+let m2 = 7;
+let sum = m1 + m2;</code></pre>
 </div>
 </div>
 </div>
@@ -671,7 +683,7 @@ let sum = m1 + m2</code></pre>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2023-08-22 22:13:51 +0200
+Last updated 2023-08-23 19:59:16 +0200
 </div>
 </div>
 </body>
