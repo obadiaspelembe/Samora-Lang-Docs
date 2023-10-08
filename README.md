@@ -24,6 +24,19 @@ You can install Samora Lang interpreter by using the Arch user repository with t
 ````sh
 $ yay -S samora-lang 
 ````
+#### Debian Based Distros
+For debian based distros, execute the following commands:
+
+* curl
+````sh
+$ sudo curl -sSL https://raw.githubusercontent.com/obadiaspelembe/samora-lang-installers/main/Unix/installer.sh | bash
+````
+
+* wget
+````sh
+$ sudo wget -O - https://raw.githubusercontent.com/obadiaspelembe/samora-lang-installers/main/Unix/installer.sh | bash
+````
+
 
 ## Samora Lang Paradigm
 

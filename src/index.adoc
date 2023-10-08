@@ -1,5 +1,5 @@
 = Samora Lang Documentation
-v1.0.0 - August 2023
+v1.1.0 - October 2023
 
 :icons: font
 
@@ -14,7 +14,7 @@ Samora Lang is simple a interpreted programing language just for educational pur
 == Installation
 
 === Windows
-You can install Samora Lang on your Windows system by running the https://github.com/obadiaspelembe/samora-lang-installers[Windows Installer] powershell script. Download the script and simply run the following command to install:
+You can install Samora Lang on your Windows system by running the https://raw.githubusercontent.com/obadiaspelembe/samora-lang-installers/main/Windows/installer.ps1[Windows Installer] powershell script. Download the script and simply run the following command to install:
 
 [source,cmd]
 ----
@@ -35,6 +35,22 @@ You can install Samora Lang interpreter by using the Arch user repository with t
 ----
 $ yay -S samora-lang 
 ----
+
+=== Debian Based Distros
+For debian based distros, execute the following commands:
+
+* curl
+[source,sh]
+----
+$ sudo curl -sSL https://raw.githubusercontent.com/obadiaspelembe/samora-lang-installers/main/Unix/installer.sh | bash
+----
+
+* wget
+[source,sh]
+----
+$ sudo wget -O - https://raw.githubusercontent.com/obadiaspelembe/samora-lang-installers/main/Unix/installer.sh | bash
+----
+
 
 == Samora Lang Paradigm
 
